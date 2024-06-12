@@ -1,0 +1,28 @@
+version: 2
+task_description: 'Teach the model history of Dragonport'
+created_by: Leviac42
+domain: history
+seed_examples:
+ - question: What is an Epoch?
+   answer: |
+     An epoch is a period of time in history, typically one marked by notable events or particular characteristics, that triggers major events and changes.
+ - question: What is Dragonport?
+   answer: |
+     Dragonport is the capital city of the Iron Legion.
+ - question: What is the Great Sundering?
+   answer: |
+     During the 4th Epoch there was a great war involving the Titans, Gods, and Dragons, that broke the protective shell of the world and creating the flying islands and the first Skyfall, that event that nearly ended all life, is known as the Great Sundering.
+ - question: What is a Life Titan?
+   answer: |
+     A Life Titan is in the Elder classification, this beings function concerns life, not the full cycle but the vibrancy of growth, the abundance of birth. Within the Life Titans domain the abundance of life energy will drastically effect the environment, filling it with as much abundance of life as possible in the form of Flora and Fauna.
+ - question: Is there another classification of species other than Earth-Born or God-Born?
+   answer: |
+     Yes, the Dream-Born. Dream-Born manifest from the dream energies of AO. Some examples of Dream-Born are Titans and Gods.
+ - question: Do Spirits of the Land have tiers of power?
+   answer: |
+     A Spirit of the Land can have the classification of Regional, Greater, Lesser, Spark. Each classification has a Rank from E at the lowest to S at the highest, each rank has 4 Tiers of power.
+document:
+ repo: https://github.com/Leviac42/6thepoch.git
+ commit: 0431132
+ patterns:
+   - history.md

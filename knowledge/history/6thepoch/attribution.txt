@@ -1,0 +1,4 @@
+Title of work: History of the 6th Epoch
+Link to work: https://github.com/Leviac42/6thepoch/blob/main/history.md
+License of the work: Commercial
+Creator names: 6thEpoch
